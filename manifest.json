@@ -1,0 +1,25 @@
+{
+   "action": {
+      "default_popup": "popup.html"
+   },
+   "content_scripts": [ {
+      "js": [ "cs.js" ],
+      "matches": [ "*://*.vit.ac.in/*", "*://*.vitap.ac.in/*", "*://*.vitbhopal.ac.in/*" ]
+   } ],
+   "content_security_policy": {
+   },
+   "description": "Captcha for pussies!",
+   // "icons": {
+   //    "48": "./icons/good.png"
+   // },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhieHB1e0QnifXRyAp+QrixivpYCR2NIpcG3Rqyc9Z2NY/D6HGkRN2qeuyHyuT6QR52Gvo1bWdcKRgtlLniDdmGF6XGtDOdzm4hOdbi0NHmaxySLKh7h3Y8ogEXQpPzIdz8lubnWRJfuBx7W/X4YtKXU6qcvZTPBCbYTnEC2MmJiPD+42EDPZzYGiMYNc9+f/mTrrJepNS4aczLZPcEKvmsmvDeQgFFspqKv0zCYGBuq5uaw2rkRFOaNpolPAv33gn1S+Q5UUxZgeglznuIiwoTNZNGyknHiRsZEAXTcEY0nkvXBhFjtBZxctL1SurhHYbKDmVlpiJbZf5ABoimq9CwIDAQAB",
+   "manifest_version": 3,
+   "name": "AUDITOP",
+   "permissions": [ "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.1.1.0",
+   "web_accessible_resources": [ {
+      "matches": [ "*://*.vit.ac.in/*", "*://*.vitap.ac.in/*", "*://*.vitbhopal.ac.in/*" ],
+      "resources": [ "/velloreWeights.json", "/chennaiWeights.json" ]
+   } ]
+}
