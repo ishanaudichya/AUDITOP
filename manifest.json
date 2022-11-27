@@ -9,10 +9,6 @@
    "content_security_policy": {
    },
    "description": "Captcha for pussies!",
-   // "icons": {
-   //    "48": "./icons/logo48.png"
-   // },
-   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhieHB1e0QnifXRyAp+QrixivpYCR2NIpcG3Rqyc9Z2NY/D6HGkRN2qeuyHyuT6QR52Gvo1bWdcKRgtlLniDdmGF6XGtDOdzm4hOdbi0NHmaxySLKh7h3Y8ogEXQpPzIdz8lubnWRJfuBx7W/X4YtKXU6qcvZTPBCbYTnEC2MmJiPD+42EDPZzYGiMYNc9+f/mTrrJepNS4aczLZPcEKvmsmvDeQgFFspqKv0zCYGBuq5uaw2rkRFOaNpolPAv33gn1S+Q5UUxZgeglznuIiwoTNZNGyknHiRsZEAXTcEY0nkvXBhFjtBZxctL1SurhHYbKDmVlpiJbZf5ABoimq9CwIDAQAB",
    "manifest_version": 3,
    "name": "AUDITOP",
    "permissions": [ "storage" ],
