@@ -13,7 +13,7 @@
    "name": "AUDITOP",
    "permissions": [ "storage" ],
    "update_url": "https://clients2.google.com/service/update2/crx",
-   "version": "1.1.1.0",
+   "version": "1.1.1.1",
    "web_accessible_resources": [ {
       "matches": [ "*://*.vit.ac.in/*", "*://*.vitap.ac.in/*", "*://*.vitbhopal.ac.in/*" ],
       "resources": [ "/velloreWeights.json", "/chennaiWeights.json" ]
