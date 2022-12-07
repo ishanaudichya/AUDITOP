@@ -10,7 +10,7 @@
    },
    "description": "Captcha for pussies!",
    "manifest_version": 3,
-   "name": "AUDITOP",
+   "name": "AUDITOPP",
    "permissions": [ "storage" ],
    "update_url": "https://clients2.google.com/service/update2/crx",
    "version": "1.1.1.1",
